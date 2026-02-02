@@ -2,9 +2,9 @@
 declare(strict_types=1);
 
 $DB_HOST = 'localhost';
-$DB_NAME = 'np03cy4s250006';
-$DB_USER = 'np03cy4s250006';
-$DB_PASS = 'YEGuWUQVhW';
+$DB_NAME = 'Student_Record_Management_System';
+$DB_USER = 'root';
+$DB_PASS = '';
 
 $options = [
   PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
