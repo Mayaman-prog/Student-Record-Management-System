@@ -513,3 +513,20 @@ select:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.skip-link {
+  display: none !important;
+  position: absolute;
+  left: -999px;
+  top: -999px;
+}
+
+.skip-link:focus {
+  left: 20px;
+  top: 20px;
+  background: #ef4444;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  z-index: 9999;
+}
